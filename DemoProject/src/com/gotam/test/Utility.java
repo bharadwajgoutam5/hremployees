@@ -7,5 +7,7 @@ class Utility {
 		System.out.println("hello world 456");
 		System.out.println("hello world 456777777");
 	}
-
+    public void m4(){
+    	
+    }
 }
