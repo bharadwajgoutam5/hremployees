@@ -12,10 +12,6 @@ GRANT WRITE ON DIRECTORY admin_bad_dir TO hr;
 -- hr connects. Provide the user password (hr) when prompted.
 CONNECT hr
 -- create the external table
-----------------
-
-
-
 CREATE TABLE admin_ext_employees
                    (employee_id       NUMBER(4), 
                     first_name        VARCHAR2(20),
